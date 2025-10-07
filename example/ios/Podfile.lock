@@ -35,6 +35,7 @@ PODS:
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
     - SocketRocket
+    - uniffi-bindgen-react-native (= 0.29.3-1)
     - Yoga
   - RCT-Folly (2024.11.18.00):
     - boost
@@ -2369,6 +2370,8 @@ PODS:
     - React-utils (= 0.81.1)
     - SocketRocket
   - SocketRocket (0.7.1)
+  - uniffi-bindgen-react-native (0.29.3-1):
+    - React-Core
   - Yoga (0.0.0)
 
 DEPENDENCIES:
@@ -2451,6 +2454,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - SocketRocket
+    - uniffi-bindgen-react-native
 
 EXTERNAL SOURCES:
   boost:
@@ -2609,7 +2613,7 @@ SPEC CHECKSUMS:
   fmt: a40bb5bd0294ea969aaaba240a927bd33d878cdd
   glog: 5683914934d5b6e4240e497e0f4a3b42d1854183
   hermes-engine: 4f8246b1f6d79f625e0d99472d1f3a71da4d28ca
-  MyRustLib: 84d8318ebf7e16a4047ce5f675b1376c5debbce9
+  MyRustLib: 72bcbada2698a14803b563b45b0416dd68be1ca3
   RCT-Folly: 846fda9475e61ec7bcbf8a3fe81edfcaeb090669
   RCTDeprecation: c4b9e2fd0ab200e3af72b013ed6113187c607077
   RCTRequired: e97dd5dafc1db8094e63bc5031e0371f092ae92a
@@ -2675,6 +2679,7 @@ SPEC CHECKSUMS:
   ReactCodegen: 4d203eddf6f977caa324640a20f92e70408d648b
   ReactCommon: ce5d4226dfaf9d5dacbef57b4528819e39d3a120
   SocketRocket: d4aabe649be1e368d1318fdf28a022d714d65748
+  uniffi-bindgen-react-native: 125eae9e3a0cf34bf8f3d4b0ceed517df7cc0733
   Yoga: 11c9686a21e2cd82a094a723649d9f4507200fb0
 
 PODFILE CHECKSUM: 01eebbfbecc927d0dc487f7be585e061d5ce7258

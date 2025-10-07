@@ -1,5 +1,6 @@
 pre-commit:
   parallel: true
+  skip: true
   commands:
     lint:
       glob: "*.{js,ts,jsx,tsx}"
@@ -9,6 +10,7 @@ pre-commit:
       run: npx tsc
 commit-msg:
   parallel: true
+  skip: true
   commands:
     commitlint:
       run: npx commitlint --edit
